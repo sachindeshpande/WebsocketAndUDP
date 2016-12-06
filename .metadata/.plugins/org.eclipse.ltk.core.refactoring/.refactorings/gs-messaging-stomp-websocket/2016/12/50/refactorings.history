@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;gs-messaging-stomp-websocket/src/main/java/hello/PackageManager&apos; to &apos;PackageManager.java&apos;" description="Rename resource &apos;PackageManager&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/hello/PackageManager" name="PackageManager.java" stamp="1480904712336" updateReferences="true"/>
+</session>

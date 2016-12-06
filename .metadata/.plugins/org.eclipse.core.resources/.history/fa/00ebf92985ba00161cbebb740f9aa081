@@ -1,0 +1,18 @@
+package hello;
+
+public class Greeting {
+
+    private String contenta;
+
+    public Greeting() {
+    }
+
+    public Greeting(String contenta) {
+        this.contenta = contenta;
+    }
+
+    public String getContenta() {
+        return contenta;
+    }
+
+}

@@ -1,0 +1,10 @@
+66e65198-e366-480e-98df-6fb21c79e73f\:credentialProfileName=awstest1
+cognitoIdentityId=us-east-1\:bc4321ea-9177-4299-b2bc-ab0dde1dee2e
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=f02254e0-a507-4b52-913b-30fee98c7e30|66e65198-e366-480e-98df-6fb21c79e73f
+currentAccount=f02254e0-a507-4b52-913b-30fee98c7e30
+currentDefaultAccount=
+ec2PreferencesImported=true
+eclipse.preferences.version=1
+f02254e0-a507-4b52-913b-30fee98c7e30\:credentialProfileName=default
+mobileAnalyticsClientId=f342fd56-cecf-441a-a4fb-27e0276712b6
