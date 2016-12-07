@@ -5,7 +5,7 @@ import java.beans.PropertyChangeListener;
 public class PackageManager
 {
 		Thread listeningThread = null;
-		PackageServer packageServer = new PackageServer();
+		EKGPackageServer packageServer = new EKGPackageServer();
 		
 	   public void startListening() throws Exception
 	   {
