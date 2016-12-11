@@ -5,9 +5,9 @@
     <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/main.css" rel="stylesheet">
     <script src="/webjars/jquery/jquery.min.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script> 
     <script src="/webjars/sockjs-client/sockjs.min.js"></script>
     <script src="/webjars/stomp-websocket/stomp.min.js"></script>
-    <script src="/app.js"></script>
 </head>
 <body>
 <noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
@@ -35,7 +35,7 @@
             </form>
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="display: none;">
         <div class="col-md-12">
             <table id="conversation" class="table table-striped">
                 <thead>
@@ -49,6 +49,19 @@
         </div>
     </div>
     </form>
+
+</div>
+<div>
+<div>
+	<canvas id="my_canvas" width="600px" height="300px"></canvas>
+</div>
+<div>
+	<label id="tone" for="tone"> This is a tone label </label>
+	<label id="remotebpm" for="remotebpm"> remote bpm label </label>	
+</div>	
+    <script src="/bouncingballs.js"></script>
+    <script src="/app.js"></script>
+
 </div>
 </body>
 </html>
